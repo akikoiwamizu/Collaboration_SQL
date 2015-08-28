@@ -1,3 +1,4 @@
+-- Joining tables and making sure the database & tables are working
 SELECT * 
 FROM sakila.actor AS sa, 
 	sakila.film_actor AS sfa, 
