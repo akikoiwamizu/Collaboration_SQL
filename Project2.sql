@@ -1,0 +1,2 @@
+-- Project 2
+-- Question: Which city in the US rented the most horror films in 2006? Which film has the highest rental rate?
