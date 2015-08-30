@@ -9,4 +9,6 @@ INNER JOIN sakila.film_actor AS sfa
 ON sfa.actor_id = sa.actor_id
 INNER JOIN sakila.film AS sf
 ON sf.film_id = sfa.film_id
+WHERE sf.rating = "R" 
+OR sf.rating = "NC-17"
 ORDER BY full_name;
